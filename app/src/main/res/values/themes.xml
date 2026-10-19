@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.BebraWidjet" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BebraWidjet" parent="Base.Theme.BebraWidjet" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splashscreenbacground</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/start_small</item>
+        <item name="postSplashScreenTheme">@style/Theme.BebraWidjet</item>
+    </style>
+</resources>
